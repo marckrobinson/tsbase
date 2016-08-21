@@ -1,11 +1,15 @@
-class Startup {
+/**
+ * Simple hello world class.
+ */
+class MyHelloWorld {
     name: string;
     constructor(name:string) {
         this.name = name;
     }
     public sayHello(): void {
-        console.log('Hello ' + this.name);
+        console.log(`Hello ${this.name}`);
     }
 }
 
-new Startup("World").sayHello();
+var hw = new MyHelloWorld("World2");
+hw.sayHello();

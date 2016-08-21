@@ -10,3 +10,7 @@ I like using the nvm package for managing node versions.  You can find it [here]
 npm install -g tsc
 ```
 
+### Definately Typed
+```
+npm install -g typings
+```
